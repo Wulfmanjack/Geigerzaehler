@@ -24,8 +24,8 @@ LiquidCrystal_I2C lcd(0x3f, 20, 4); //Adresse, Zeichen pro Zeile, Zeilenzahl
 SMTPSession smtp;
 
 //WLAN-Abteilung
-const char* ssid = "SSID";
-const char* password = "WLAN_PASSWORT";
+const char* ssid = "WoMi Heimnetz";
+const char* password = "4803082785320227";
 
 bool notsend = true;
 int mailcount = 0;
